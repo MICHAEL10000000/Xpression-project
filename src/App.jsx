@@ -80,7 +80,7 @@ function App() {
             </nav>
 
   <Routes>
-  <Route path='/Xpression-project' exact Component={Home} /> {/* ** */}
+  <Route path='/Xpression-project' Component={Home} /> {/* ** */}
   <Route path='/home'  Component={Home} />
   <Route path='/about'   Component={About} />
   <Route path='/shop' Component={Shop} />
